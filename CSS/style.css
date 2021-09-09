@@ -1,18 +1,16 @@
-
-*{
+* {
 	box-sizing: border-box;
 }
 
-body{
-	font-family: 'Roboto', sans-serif;
+body {
+	font-family: "Roboto", sans-serif;
 }
 
 .header {
 	background-color: #635854;
 	padding-top: 12px;
 	padding-bottom: 12px;
-	border-bottom: 4px solid #3596F5;
-
+	border-bottom: 4px solid #3596f5;
 }
 .navbar {
 	max-width: 1280px;
@@ -56,11 +54,9 @@ body{
 .main {
 	max-width: 1280px;
 	margin: auto;
-	padding-top: 54px;                                                             
+	padding-top: 54px;
 }
-.main-image {
-}
-.home-image path{
+.home-image path {
 	opacity: 0;
 	cursor: pointer;
 }
