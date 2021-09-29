@@ -16,8 +16,6 @@ body {
 
 .header {
 	background-color: #635854;
-	padding-top: 12px;
-	padding-bottom: 12px;
 	border-bottom: 4px solid #3596f5;
 }
 .navbar {
@@ -37,6 +35,10 @@ body {
 .navbar-item {
 	margin-left: 40px;
 	margin-right: 40px;
+	padding: 16px;
+}
+.navbar-item:hover {
+	background-color: #3596f5;
 }
 .navbar-link {
 	text-decoration: none;
@@ -210,4 +212,26 @@ path.current-floor{
 	line-height: 19px;
 	color: #635854;
 	margin-top: 56px;
+}
+.footer {
+	margin-top: 100px;
+	padding: 50px 0;
+	background-color: #D7D7D7;
+	border-top: 4px solid #3596f5;
+}
+.footer-navbar-icon {
+	margin-right: 40px;
+}
+.grey {
+	color: #635854;
+}
+.navbar-social {
+	margin-left: 60px;
+	margin-right: auto;
+}
+.icon-social {
+	margin-left: 15px;
+}
+.info-item {
+	margin-left: 20px;
 }
