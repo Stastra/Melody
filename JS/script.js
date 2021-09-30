@@ -7,6 +7,9 @@ $(document).ready(function () {
 	var modalCloseButton = $(".modal-close-button");
 	var viewFlatsButton = $(".view-flats");
 
+	var currentFlat = 40; /* переменная где хранится номер квартиры */
+	var flatPath = $(".flats path"); /* каждая отдельная квартира */
+
 
 	//функция при наведении мышью на этаж
 	floorPath.on("mouseover", function () {
